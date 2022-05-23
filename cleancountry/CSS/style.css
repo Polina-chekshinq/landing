@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Mukta:wght@2000&display=swap');
+
+@import url('Components/container.css');
+@import url('Components/avatar.css');
+@import url('Components/button.css');
+@import url('Components/banner.css');
+@import url('Components/card.css');
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20 px;
+	background-color: #E7FBBE;
+	color: #062C30;
+}
+
+h1, h2, h3 {
+	font-family: 'Mukata', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card-white{
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 8px;
+margin: 30px 0px;
+text-align: center;
+}
